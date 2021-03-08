@@ -1,0 +1,120 @@
+/*Color Palette*/
+
+/*Global styles*
+---------------------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body{
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+  }
+  
+  h1, h2 {
+      font-family: 'Caveat', cursive;
+      font-weight: 400;
+  }
+  
+  h1 {
+      font-size: 80px;
+  }
+  
+   h2 {
+       font-size: 40px;
+       margin-top: 0;
+   }
+  
+  a {
+      color: #ef233c;
+  }
+  
+  a:hover {
+      text-decoration: none;
+  }
+  
+  .content-wrap {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 50px;
+      overflow: auto;
+  }
+  
+  .col-narrow {
+      width: 30%;
+      float: left;
+      min-height: 175px;
+  }
+  
+  .col-wide {
+      width: 70%;
+      float: left;
+      padding-left: 20px;
+      min-height: 175px;
+  }
+  
+  /*Header and Footer bg color:#2b2d42, #dea9ab, color: #8d99ae,  #402917; 
+  ------------------------*/
+  
+  header, footer {
+      background-color: #2b2d42;   
+      color: #8d99ae;
+      margin: 0 auto;
+      width: 100%;
+  }
+  
+  /*Header*/
+  
+  .profile-img {
+      border-radius: 100%;
+  }
+  
+  header h1, header h2 {
+      color: #edf3f4;
+      margin: 0;
+  }
+  
+  /*Footer*/
+  
+  footer {
+      text-align: center;
+  }
+  
+  .contact-info a {
+      padding: 10px;
+      display: inline-block;
+  }
+  
+  /*Work Experience #edf2f4
+  ------------------------*/
+  
+  .work {
+      background-color: #edf2f4;
+      
+  }
+  
+  /*Education
+  ------------------------*/
+  
+  .education {
+      background-color: #8d99ae;
+  }
+
+
+
+  /* more styling */
+
+  p {
+      font-size: 15px;
+      margin: 10px;
+  }
+
+  li {
+    font-size: 15px;
+    
+}
